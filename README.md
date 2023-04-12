@@ -60,4 +60,4 @@ This data will also be converted from parquet to delta lake to meet some of the 
 
 The data in the processed layer is then transformed further to meet the business requirements into the Presentation layer. It will also be in parquet and delta lake format as well.
 
-We then use databricks notebooks ton analyze the data and create dashboards. We also connected Power BI for more sophisticated dashboard generation before finally scheduling the pipeline with Azure Data Factory Pipelines.
+We then use databricks notebooks to analyze the data and create dashboards. We also connected Power BI for more sophisticated dashboard generation before finally scheduling the pipeline with Azure Data Factory Pipelines.
