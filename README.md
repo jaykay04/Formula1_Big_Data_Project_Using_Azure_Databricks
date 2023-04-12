@@ -12,7 +12,7 @@ The Databricks Lakehouse Platform integrates with various cloud storages coupled
 * Azure Key Vault
 
 ### Project Requirements
-The requirements for this project is brokem down into six different parts and they include
+The requirements for this project is broken down into six different parts which are;
 
 #### 1. Data Ingestion Requirements
 * Ingest aall 8 files into Azure data lake. 
