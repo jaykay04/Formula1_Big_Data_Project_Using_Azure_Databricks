@@ -116,4 +116,4 @@ Next we join them and selected the required columns as seen below;
 
 After that, we then write the data to the presentation layer using the incremental load approach we used which will also create managed tables in the f1_presentation database that was created earlier.
 <img src="https://github.com/jaykay04/Formula1_Big_Data_Project_Using_Azure_Databricks/blob/main/Images/presentation%20load.png">
-
+The other presentation files followed the same approach as above.
