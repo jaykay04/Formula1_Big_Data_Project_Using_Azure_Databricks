@@ -117,3 +117,12 @@ Next we join them and selected the required columns as seen below;
 After that, we then write the data to the presentation layer using the incremental load approach we used which will also create managed tables in the f1_presentation database that was created earlier.
 <img src="https://github.com/jaykay04/Formula1_Big_Data_Project_Using_Azure_Databricks/blob/main/Images/presentation%20load.png">
 The other presentation files followed the same approach as above.
+
+We then analyzed the dataset to find out the dominant drivers and dominant teams over the years.
+###### Dominant Drivers Analysis and Visualization
+![](https://github.com/jaykay04/Formula1_Big_Data_Project_Using_Azure_Databricks/blob/main/Images/drivers%20analysis.png)
+![](https://github.com/jaykay04/Formula1_Big_Data_Project_Using_Azure_Databricks/blob/main/Images/dominant_drivers_viz.png)
+
+##### Dominant Teams Analysis and Visualization
+![](https://github.com/jaykay04/Formula1_Big_Data_Project_Using_Azure_Databricks/blob/main/Images/team%20analysis.png)
+![](https://github.com/jaykay04/Formula1_Big_Data_Project_Using_Azure_Databricks/blob/main/Images/dominant_teams_viz.png)
