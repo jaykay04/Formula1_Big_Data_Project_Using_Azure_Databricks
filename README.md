@@ -131,3 +131,9 @@ For a more sophisticated reporting, we could connect our databricks workspace to
 ![](https://github.com/jaykay04/Formula1_Big_Data_Project_Using_Azure_Databricks/blob/main/Images/connect_to_powerbi_1.png)
 ![](https://github.com/jaykay04/Formula1_Big_Data_Project_Using_Azure_Databricks/blob/main/Images/connect_to_powerbi_2.png)
 ![](https://github.com/jaykay04/Formula1_Big_Data_Project_Using_Azure_Databricks/blob/main/Images/connect_to_powerbi_3.png)
+
+To meet up with our scheduling and orchestration requirements, we have to use ADF pipelines.
+We created pipelines for the ingestion files and transformatipn files as shown below;
+![](https://github.com/jaykay04/Formula1_Big_Data_Project_Using_Azure_Databricks/blob/main/Images/pipeline_ingestion_all_files.png)
+
+![](https://github.com/jaykay04/Formula1_Big_Data_Project_Using_Azure_Databricks/blob/main/Images/pipeline_tranform_files.png)
