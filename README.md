@@ -126,3 +126,8 @@ We then analyzed the dataset to find out the dominant drivers and dominant teams
 ##### Dominant Teams Analysis and Visualization
 ![](https://github.com/jaykay04/Formula1_Big_Data_Project_Using_Azure_Databricks/blob/main/Images/team%20analysis.png)
 ![](https://github.com/jaykay04/Formula1_Big_Data_Project_Using_Azure_Databricks/blob/main/Images/dominant_teams_viz.png)
+
+For a more sophisticated reporting, we could connect our databricks workspace to Power BI as well as shown below;
+![](https://github.com/jaykay04/Formula1_Big_Data_Project_Using_Azure_Databricks/blob/main/Images/connect_to_powerbi_1.png)
+![](https://github.com/jaykay04/Formula1_Big_Data_Project_Using_Azure_Databricks/blob/main/Images/connect_to_powerbi_2.png)
+![](https://github.com/jaykay04/Formula1_Big_Data_Project_Using_Azure_Databricks/blob/main/Images/connect_to_powerbi_3.png)
