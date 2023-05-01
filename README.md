@@ -64,7 +64,7 @@ We then use databricks notebooks to analyze the data and create dashboards. We a
 <img src="https://github.com/jaykay04/Formula1_Big_Data_Project_Using_Azure_Databricks/blob/main/Images/solution%20architecture.png">
 
 ### Solution
-The first thing we did was to create three containers in our ADLS named raw, processed and presentation. These containers was then mounted to databricks using Azure Service principal and Databricks Secret scopes as shown below.
+The first thing we did was to create three containers in our ADLS named *raw*, *processed* and *presentation*. These containers was then mounted to databricks using Azure Service principal and Databricks Secret scopes as shown below.
 ![](https://github.com/jaykay04/Formula1_Big_Data_Project_Using_Azure_Databricks/blob/main/Images/mount%20storages.png)
 
 After mounting, we then uploaded the raw datasets manually into to the raw container, we could have use ADF for the ingestion but we just decided to do it manually for simplicity sake.
@@ -72,3 +72,10 @@ After mounting, we then uploaded the raw datasets manually into to the raw conta
 We then used our databricks notebook to create a f1_raw database so that we can create external tables on top of the raw datasets inside the f1_raw database as seen below.
 ![](https://github.com/jaykay04/Formula1_Big_Data_Project_Using_Azure_Databricks/blob/main/Images/Create%20raw%20database%20and%20tables.png)
 Note that we created external tables for all the raw datasets so that we can ustilize the *DeltaLakeHouse Architecture* of Databricks.
+
+We also created f1_processed and f1_presentation databases which will house our managed tables from the files that will be transformed later,
+![](https://github.com/jaykay04/Formula1_Big_Data_Project_Using_Azure_Databricks/blob/main/Images/create%20processed%20%26%20presentation%20databases.png)
+
+Each file was then ingested and transformed from the raw layer to the processed layer. Kindly note that the files are of different file formats which are csv, json and some are in folders as well.
+This implies that they are ingested and transformed based on their different file formats as shown below:
+
