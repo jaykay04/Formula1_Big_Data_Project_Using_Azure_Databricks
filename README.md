@@ -62,4 +62,4 @@ The data in the processed layer is then transformed further to meet the business
 
 We then use databricks notebooks to analyze the data and create dashboards. We also connected Power BI for more sophisticated dashboard generation before finally scheduling the pipeline with Azure Data Factory Pipelines.
 <img src="https://github.com/jaykay04/Formula1_Big_Data_Project_Using_Azure_Databricks/blob/main/Images/solution%20architecture.png">
-![]("https://github.com/jaykay04/Formula1_Big_Data_Project_Using_Azure_Databricks/blob/main/Images/solution%20architecture.png")
+![Images](https://github.com/jaykay04/Formula1_Big_Data_Project_Using_Azure_Databricks/blob/main/Images/solution%20architecture.png)
