@@ -93,7 +93,7 @@ After injesting all the 8 files, we then transformed the datasets as required
 Transofrmation of all the datasets follows the same approach as shown above.
 
 It is worthy to note that we have 8 files to be ingested and transformed, 4 of those files are implemented using full loads while the other four are implemented using incremental loads.
-The was we handle full or bulk loads are different from how we handle incremental loads.
+The way we handle full or bulk loads are different from how we handle incremental loads.
 
 After transformation, we then write the data with full loads to the processed containers in parquet format using the *saveAsTable* syntax which also saves the data as a table in our f1_processed database.
 ![](https://github.com/jaykay04/Formula1_Big_Data_Project_Using_Azure_Databricks/blob/main/Images/full%20load.png)
@@ -101,4 +101,7 @@ After transformation, we then write the data with full loads to the processed co
 For the incremental load, we have to approach it by utilizing the advantages of Databricks lakehouse architecture which allows us to append data by using the *merge* syntax incrementally.
 We first define the merge statement as a function as shown below;
 <img src="https://github.com/jaykay04/Formula1_Big_Data_Project_Using_Azure_Databricks/blob/main/Images/merge.png">
+
+Then we load all the four incremental load data by calling the function as shown below
+<img src="https://github.com/jaykay04/Formula1_Big_Data_Project_Using_Azure_Databricks/blob/main/Images/incremental%20load.png">
 
