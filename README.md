@@ -105,3 +105,15 @@ We first define the merge statement as a function as shown below;
 Then we load all the four incremental load data by calling the function as shown below
 <img src="https://github.com/jaykay04/Formula1_Big_Data_Project_Using_Azure_Databricks/blob/main/Images/incremental%20load.png">
 
+Now we have all our data in the processed layer and as well as managed tables in our f1_processed database as well. The next thing is to transform the data further to meet BI reporting inside the presentation layer while also creating tables in our f1_presentation database.
+We created the race_results, drivers and constructors standings which will allow us perform reporting to meet the reporting requirements as shown below.
+
+To create the presentation data for our BI reporting, we read the various data needed for the transformation as shown;
+<img src="https://github.com/jaykay04/Formula1_Big_Data_Project_Using_Azure_Databricks/blob/main/Images/prentation%20read.png">
+
+Next we join them and selected the required columns as seen below;
+<img src="https://github.com/jaykay04/Formula1_Big_Data_Project_Using_Azure_Databricks/blob/main/Images/presentation%20join.png">
+
+After that, we then write the data to the presentation layer using the incremental load approach we used which will also create managed tables in the f1_presentation database that was created earlier.
+<img src="https://github.com/jaykay04/Formula1_Big_Data_Project_Using_Azure_Databricks/blob/main/Images/presentation%20load.png">
+
