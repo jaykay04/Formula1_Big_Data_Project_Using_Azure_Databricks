@@ -76,6 +76,15 @@ Note that we created external tables for all the raw datasets so that we can ust
 We also created f1_processed and f1_presentation databases which will house our managed tables from the files that will be transformed later,
 ![](https://github.com/jaykay04/Formula1_Big_Data_Project_Using_Azure_Databricks/blob/main/Images/create%20processed%20%26%20presentation%20databases.png)
 
-Each file was then ingested and transformed from the raw layer to the processed layer. Kindly note that the files are of different file formats which are csv, json and some are in folders as well.
-This implies that they are ingested and transformed based on their different file formats as shown below:
+Each file was then ingested and transformed from the raw layer to the processed layer. The files are of different file formats which are csv, json and some are in folders as well.
+This implies that they are ingested and transformed based on their different file formats as shown below.
+
+It is worthy to note that we have 8 files to be ingested and transformed, 4 of those files are implemented using full loads while the other four are implemented using incremental loads.
+The was we handle full or bulk loads are different from how we handle incremental loads.
+
+First we ingest all the datasets based on their file formats and requirements. 
+We ingest the csv file followed by the json file respectively.
+<img src="https://github.com/jaykay04/Formula1_Big_Data_Project_Using_Azure_Databricks/blob/main/Images/ingest%20csv.png">
+
+![](https://github.com/jaykay04/Formula1_Big_Data_Project_Using_Azure_Databricks/blob/main/Images/ingest%20json.png)
 
