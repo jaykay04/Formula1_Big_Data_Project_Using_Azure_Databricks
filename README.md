@@ -88,3 +88,10 @@ We ingest the csv file followed by the json file respectively.
 
 ![](https://github.com/jaykay04/Formula1_Big_Data_Project_Using_Azure_Databricks/blob/main/Images/ingest%20json.png)
 
+After injesting all the 8 files, we then transformed the datasets as required
+![](https://github.com/jaykay04/Formula1_Big_Data_Project_Using_Azure_Databricks/blob/main/Images/tranform1.png)
+
+![](https://github.com/jaykay04/Formula1_Big_Data_Project_Using_Azure_Databricks/blob/main/Images/transform2.png)
+
+Transofrmation of all the datasets follows the same approach as shown above.
+
