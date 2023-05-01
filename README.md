@@ -137,3 +137,14 @@ We created pipelines for the ingestion files and transformatipn files as shown b
 ![](https://github.com/jaykay04/Formula1_Big_Data_Project_Using_Azure_Databricks/blob/main/Images/pipeline_ingestion_all_files.png)
 
 ![](https://github.com/jaykay04/Formula1_Big_Data_Project_Using_Azure_Databricks/blob/main/Images/pipeline_tranform_files.png)
+
+We then tied both pipelines in a master pipeline with trigger to automate the whole process as shown below;
+<img src="https://github.com/jaykay04/Formula1_Big_Data_Project_Using_Azure_Databricks/blob/main/Images/trigger_master_pipeline.png">
+
+In conclusion, we are able utilize the power of Azure Databricks LakeHouse Architecture to Extract data of different file formats, Transform them and Load them based on full and incrememtal loads.
+
+
+### Follow Me
+* Linkedin: https://www.linkedin.com/in/joshua-gbegudu/
+* Github: github.com/jaykay04
+* Instagram: @Official_jaykay04
