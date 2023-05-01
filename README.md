@@ -95,3 +95,6 @@ After injesting all the 8 files, we then transformed the datasets as required
 
 Transofrmation of all the datasets follows the same approach as shown above.
 
+After transformation, we then write the data to the processed containers in parquet format using the *saveAsTable* syntax which also saves the data as a table in our f1_processed database.
+![](https://github.com/jaykay04/Formula1_Big_Data_Project_Using_Azure_Databricks/blob/main/Images/full%20load.png)
+
