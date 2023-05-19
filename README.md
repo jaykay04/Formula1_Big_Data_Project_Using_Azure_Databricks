@@ -69,7 +69,7 @@ The first thing we did was to create three containers in our ADLS named *raw*, *
 
 After mounting, we then ingest the datasets into to our raw container.
 
-We then used our databricks notebook to create a f1_raw database so that we can create external tables on top of the raw datasets inside the f1_raw database as seen below.
+Next, we created a f1_raw database so that we can create external tables on top of the raw datasets inside the f1_raw database as seen below.
 ![](https://github.com/jaykay04/Formula1_Big_Data_Project_Using_Azure_Databricks/blob/main/Images/Create%20raw%20database%20and%20tables.png)
 Note that we created external tables for all the raw datasets so that we can ustilize the *DeltaLakeHouse Architecture* of Databricks.
 
