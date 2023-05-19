@@ -67,7 +67,7 @@ We then use databricks notebooks to analyze the data and create dashboards. We a
 The first thing we did was to create three containers in our ADLS named *raw*, *processed* and *presentation*. These containers was then mounted to databricks using Azure Service principal and Databricks Secret scopes as shown below.
 ![](https://github.com/jaykay04/Formula1_Big_Data_Project_Using_Azure_Databricks/blob/main/Images/mount%20storages.png)
 
-After mounting, we then uploaded the raw datasets manually into to the raw container, we could have use ADF for the ingestion but we just decided to do it manually for simplicity sake.
+After mounting, we then ingest the datasets into to our raw container.
 
 We then used our databricks notebook to create a f1_raw database so that we can create external tables on top of the raw datasets inside the f1_raw database as seen below.
 ![](https://github.com/jaykay04/Formula1_Big_Data_Project_Using_Azure_Databricks/blob/main/Images/Create%20raw%20database%20and%20tables.png)
