@@ -1,5 +1,5 @@
 # Formula1_Big_Data_Project_Using_Azure_Databricks
-This Project is about building a Cloud data platform for the reporting and analysis of Formula1 Motor Sport data using Azure Databricks
+This Project is showcases how to building a Cloud data platform for the reporting and analysis of Formula1 Motor Sport data using Azure Databricks
 
 Azure Databricks is a unified set of tools for building, deploying, sharing and maintaining enterprise-grade data solutions at scale.
 
@@ -15,7 +15,7 @@ The Databricks Lakehouse Platform integrates with various cloud storages coupled
 The requirements for this project is broken down into six different parts which are;
 
 #### 1. Data Ingestion Requirements
-* Ingest aall 8 files into Azure data lake. 
+* Ingest all 8 files into Azure data lake. 
 * Ingested data must have the same schema applied.
 * Ingested data must have audit columns.
 * Ingested data must be stored in  columnar format (i.e parquet).
